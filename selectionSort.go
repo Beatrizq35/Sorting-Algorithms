@@ -5,7 +5,7 @@ func sortVet(vet []int) []int {
 	// implementar aqui o selection sort
 	// https://www.youtube.com/watch?v=g-PGLbMth_g&ab_channel=MichaelSambol
 
-  var aux, menor, pos_menor_j int
+  var aux, menor, pos_menor_j int 
 
   for i := 0; i < len(vet); i++ {
     menor = vet[i]
