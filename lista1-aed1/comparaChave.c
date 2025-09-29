@@ -49,4 +49,6 @@ int main () {
     int vet[size];
     readVet(vet, size);
     compara(vet, size,key);
+
+    return 0;
 }
