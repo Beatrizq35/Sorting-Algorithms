@@ -46,10 +46,10 @@ int main () {
     readVet(vet, size);
 
     if (preencheVet(vet, size)) {
-        printf("A quantidade maior é de 0's\n");
+        printf("A quantidade maior é de Números Pares\n");
     }
     else {
-        printf("A quantidade maior é de 1's\n");
+        printf("A quantidade maior é de Números Ímpares\n");
     }
     return 0;
 }
